@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-size: 1.2vmax;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.am-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  background: var(--bg-color, #04aa6d);
+}
+
+.am-container-1 {
+
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.7vmax;
+
+    legend {
+      font-weight: 900;
+    }
+
+    input {
+      margin-left: 0.7vmax;
+    }
+
+    lable {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
