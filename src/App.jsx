@@ -1,4 +1,5 @@
 import { Checkbox } from '#/components/1/Checkbox.jsx';
+import { Select } from '#/components/2/Select.jsx';
 
 const arrayComponents = [
   {
@@ -7,6 +8,13 @@ const arrayComponents = [
     ComponentToRender: Checkbox,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%)`
+  },
+  {
+    title: 'Component 2',
+    describe: 'We make sure that the Select works correctly',
+    ComponentToRender: Select,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(-225deg, #FF512F 0%, #DD2476 48%, #FF512F 100%)`
   }
 ];
 
