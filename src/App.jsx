@@ -1,6 +1,7 @@
 import { Checkbox } from '#/components/1/Checkbox.jsx';
 import { Select } from '#/components/2/Select.jsx';
 import { Input } from '#/components/3/Input.jsx';
+import { Hover } from '#/components/4/Hover.jsx';
 
 const arrayComponents = [
   {
@@ -22,7 +23,14 @@ const arrayComponents = [
     describe: 'We make sure that the Input works correctly',
     ComponentToRender: Input,
     id: crypto.randomUUID(),
-    gradient: `linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);`
+    gradient: `linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%)`
+  },
+  {
+    title: 'Component 4',
+    describe: 'We make sure that the Hover works correctly in a Button',
+    ComponentToRender: Hover,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%)`
   }
 ];
 
