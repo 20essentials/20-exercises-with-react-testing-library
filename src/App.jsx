@@ -2,6 +2,7 @@ import { Checkbox } from '#/components/1/Checkbox.jsx';
 import { Select } from '#/components/2/Select.jsx';
 import { Input } from '#/components/3/Input.jsx';
 import { Hover } from '#/components/4/Hover.jsx';
+import { Tab } from '#/components/5/Tab.jsx';
 
 const arrayComponents = [
   {
@@ -31,6 +32,13 @@ const arrayComponents = [
     ComponentToRender: Hover,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%)`
+  },
+  {
+    title: 'Component 5',
+    describe: 'We make sure that the tab() works correctly in Inputs',
+    ComponentToRender: Tab,
+    id: crypto.randomUUID(),
+    gradient: ` linear-gradient(to right, #ff8008, #ffc837)`
   }
 ];
 
