@@ -3,6 +3,9 @@ import { Select } from '#/components/2/Select.jsx';
 import { Input } from '#/components/3/Input.jsx';
 import { Hover } from '#/components/4/Hover.jsx';
 import { Tab } from '#/components/5/Tab.jsx';
+import { Form } from '#/components/6/Form.jsx';
+import { Register } from '#/components/7/Register.jsx';
+import { Message } from '#/components/8/Message.jsx';
 
 const arrayComponents = [
   {
@@ -39,6 +42,28 @@ const arrayComponents = [
     ComponentToRender: Tab,
     id: crypto.randomUUID(),
     gradient: ` linear-gradient(to right, #ff8008, #ffc837)`
+  },
+  {
+    title: 'Component 6',
+    describe: 'We make sure that the Form works.',
+    ComponentToRender: Form,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #12c2e9, #c471ed, #f64f59)
+`
+  },
+  {
+    title: 'Component 7',
+    describe: 'We make sure that the Register works.',
+    ComponentToRender: Register,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #2980b9, #6dd5fa, #ffffff)`
+  },
+  {
+    title: 'Component 8',
+    describe: 'We make sure that the Message paragraph is showing or not.',
+    ComponentToRender: Message,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb)`
   }
 ];
 
