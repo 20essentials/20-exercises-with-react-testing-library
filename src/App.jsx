@@ -6,6 +6,7 @@ import { Tab } from '#/components/5/Tab.jsx';
 import { Form } from '#/components/6/Form.jsx';
 import { Register } from '#/components/7/Register.jsx';
 import { Message } from '#/components/8/Message.jsx';
+import { Fetch } from '#/components/9/Fetch.jsx';
 
 const arrayComponents = [
   {
@@ -64,6 +65,13 @@ const arrayComponents = [
     ComponentToRender: Message,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb)`
+  },
+  {
+    title: 'Component 9',
+    describe: 'We make sure that the Fetch works correctly',
+    ComponentToRender: Fetch,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #11998e, #38ef7d)`
   }
 ];
 
