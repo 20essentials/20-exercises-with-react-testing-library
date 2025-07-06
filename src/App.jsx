@@ -7,6 +7,7 @@ import { Form } from '#/components/6/Form.jsx';
 import { Register } from '#/components/7/Register.jsx';
 import { Message } from '#/components/8/Message.jsx';
 import { Fetch } from '#/components/9/Fetch.jsx';
+import { NormalAndReverse } from '#/components/10/NormalAndReverse.jsx';
 
 const arrayComponents = [
   {
@@ -72,7 +73,14 @@ const arrayComponents = [
     ComponentToRender: Fetch,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(to right, #11998e, #38ef7d)`
-  }
+  },
+  {
+    title: 'Component 10',
+    describe: 'We make sure that the array reversed correctly',
+    ComponentToRender: NormalAndReverse,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #00f260, #0575e6);`
+  },
 ];
 
 export function App() {
