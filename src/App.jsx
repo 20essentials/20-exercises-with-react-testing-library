@@ -8,6 +8,7 @@ import { Register } from '#/components/7/Register.jsx';
 import { Message } from '#/components/8/Message.jsx';
 import { Fetch } from '#/components/9/Fetch.jsx';
 import { NormalAndReverse } from '#/components/10/NormalAndReverse.jsx';
+import { UploadFile } from '#/components/11/UploadFile.jsx';
 
 const arrayComponents = [
   {
@@ -81,6 +82,14 @@ const arrayComponents = [
     id: crypto.randomUUID(),
     gradient: `linear-gradient(to right, #00f260, #0575e6);`
   },
+  {
+    title: 'Component 11',
+    describe: 'We upload the file in an input',
+    ComponentToRender: UploadFile,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(90deg, #6e40aa, #6154c8, #4c6edb, #368ce1, #24aad8, #1ac7c2, #1ddea3, #30ee83, #52f667, #7ef658, #7ef658)
+`
+  }
 ];
 
 export function App() {
