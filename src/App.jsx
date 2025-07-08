@@ -9,6 +9,7 @@ import { Message } from '#/components/8/Message.jsx';
 import { Fetch } from '#/components/9/Fetch.jsx';
 import { NormalAndReverse } from '#/components/10/NormalAndReverse.jsx';
 import { UploadFile } from '#/components/11/UploadFile.jsx';
+import { Calculator } from '#/components/12/Calculator.jsx';
 
 const arrayComponents = [
   {
@@ -88,6 +89,14 @@ const arrayComponents = [
     ComponentToRender: UploadFile,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(90deg, #6e40aa, #6154c8, #4c6edb, #368ce1, #24aad8, #1ac7c2, #1ddea3, #30ee83, #52f667, #7ef658, #7ef658)
+`
+  },
+  {
+    title: 'Component 12',
+    describe: 'A simple calculator',
+    ComponentToRender: Calculator,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(45deg, #f3ec78, #af4261)
 `
   }
 ];
