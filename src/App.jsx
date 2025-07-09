@@ -10,6 +10,7 @@ import { Fetch } from '#/components/9/Fetch.jsx';
 import { NormalAndReverse } from '#/components/10/NormalAndReverse.jsx';
 import { UploadFile } from '#/components/11/UploadFile.jsx';
 import { Calculator } from '#/components/12/Calculator.jsx';
+import { PokemonPromises } from '#/components/13/PokemonPromises.jsx';
 
 const arrayComponents = [
   {
@@ -98,6 +99,13 @@ const arrayComponents = [
     id: crypto.randomUUID(),
     gradient: `linear-gradient(45deg, #f3ec78, #af4261)
 `
+  },
+  {
+    title: 'Component 13',
+    describe: `Promises with Pokemon's Api`,
+    ComponentToRender: PokemonPromises,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #56ab2f, #a8e063)`
   }
 ];
 
