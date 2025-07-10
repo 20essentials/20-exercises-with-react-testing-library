@@ -11,6 +11,7 @@ import { NormalAndReverse } from '#/components/10/NormalAndReverse.jsx';
 import { UploadFile } from '#/components/11/UploadFile.jsx';
 import { Calculator } from '#/components/12/Calculator.jsx';
 import { PokemonPromises } from '#/components/13/PokemonPromises.jsx';
+import { Contador } from '#/components/14/Counter.jsx';
 
 const arrayComponents = [
   {
@@ -106,7 +107,14 @@ const arrayComponents = [
     ComponentToRender: PokemonPromises,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(to right, #56ab2f, #a8e063)`
-  }
+  },
+  {
+    title: 'Component 14',
+    describe: `Simple Counter`,
+    ComponentToRender: Contador,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #00d2ff, #928dab)`
+  },
 ];
 
 export function App() {
