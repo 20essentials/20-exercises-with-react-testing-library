@@ -12,6 +12,7 @@ import { UploadFile } from '#/components/11/UploadFile.jsx';
 import { Calculator } from '#/components/12/Calculator.jsx';
 import { PokemonPromises } from '#/components/13/PokemonPromises.jsx';
 import { Contador } from '#/components/14/Counter.jsx';
+import { Formulario } from '#/components/15/Formulario.jsx';
 
 const arrayComponents = [
   {
@@ -115,6 +116,13 @@ const arrayComponents = [
     id: crypto.randomUUID(),
     gradient: `linear-gradient(to right, #00d2ff, #928dab)`
   },
+  {
+    title: 'Component 15',
+    describe: `A form`,
+    ComponentToRender: Formulario,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(90deg, #0d0887, #41049d, #6a00a8, #8f0da4, #b12a90, #cb4679, #e16462, #f1834c, #fca636, #fcce25, #fcce25)`
+  }
 ];
 
 export function App() {
