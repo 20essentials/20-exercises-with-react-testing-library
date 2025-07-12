@@ -13,6 +13,7 @@ import { Calculator } from '#/components/12/Calculator.jsx';
 import { PokemonPromises } from '#/components/13/PokemonPromises.jsx';
 import { Contador } from '#/components/14/Counter.jsx';
 import { Formulario } from '#/components/15/Formulario.jsx';
+import { ListaTareas } from '#/components/16/ListaTareas.jsx';
 
 const arrayComponents = [
   {
@@ -122,7 +123,15 @@ const arrayComponents = [
     ComponentToRender: Formulario,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(90deg, #0d0887, #41049d, #6a00a8, #8f0da4, #b12a90, #cb4679, #e16462, #f1834c, #fca636, #fcce25, #fcce25)`
-  }
+  },
+  {
+    title: 'Component 16',
+    describe: `Lista de Tareas`,
+    ComponentToRender: ListaTareas,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(90deg, #6e40aa, #963db3, #bf3caf, #e3419e, #fe4b83, #ff5e64, #ff7747, #fb9633, #e2b72f, #c7d63c, #c7d63c)`
+  },
+
 ];
 
 export function App() {
