@@ -14,6 +14,7 @@ import { PokemonPromises } from '#/components/13/PokemonPromises.jsx';
 import { Contador } from '#/components/14/Counter.jsx';
 import { Formulario } from '#/components/15/Formulario.jsx';
 import { ListaTareas } from '#/components/16/ListaTareas.jsx';
+import { SearchFilter } from '#/components/17/SearchFilter.jsx';
 
 const arrayComponents = [
   {
@@ -130,6 +131,13 @@ const arrayComponents = [
     ComponentToRender: ListaTareas,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(90deg, #6e40aa, #963db3, #bf3caf, #e3419e, #fe4b83, #ff5e64, #ff7747, #fb9633, #e2b72f, #c7d63c, #c7d63c)`
+  },
+  {
+    title: 'Component 17',
+    describe: `SearchFilter`,
+    ComponentToRender: SearchFilter,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(90deg, #9e0142, #d13b4b, #f0704a, #fcab63, #fedc8c, #fbf8b0, #e0f3a1, #aadda2, #69bda9, #4288b5, #4288b5)`
   },
 
 ];
