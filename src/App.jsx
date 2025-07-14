@@ -15,6 +15,7 @@ import { Contador } from '#/components/14/Counter.jsx';
 import { Formulario } from '#/components/15/Formulario.jsx';
 import { ListaTareas } from '#/components/16/ListaTareas.jsx';
 import { SearchFilter } from '#/components/17/SearchFilter.jsx';
+import { Paginacion } from '#/components/18/Paginacion.jsx';
 
 const arrayComponents = [
   {
@@ -139,7 +140,13 @@ const arrayComponents = [
     id: crypto.randomUUID(),
     gradient: `linear-gradient(90deg, #9e0142, #d13b4b, #f0704a, #fcab63, #fedc8c, #fbf8b0, #e0f3a1, #aadda2, #69bda9, #4288b5, #4288b5)`
   },
-
+  {
+    title: 'Component 18',
+    describe: `Paginacion`,
+    ComponentToRender: Paginacion,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(90deg, #6e40aa, #be3caf, #fe4b83, #ff7747, #e3b62f, #b0ef5a, #53f666, #1edfa2, #23acd8, #4c6fdc, #4c6fdc)`
+  }
 ];
 
 export function App() {
