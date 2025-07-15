@@ -16,6 +16,7 @@ import { Formulario } from '#/components/15/Formulario.jsx';
 import { ListaTareas } from '#/components/16/ListaTareas.jsx';
 import { SearchFilter } from '#/components/17/SearchFilter.jsx';
 import { Paginacion } from '#/components/18/Paginacion.jsx';
+import { Autenticacion } from '#/components/19/Autenticacion.jsx';
 
 const arrayComponents = [
   {
@@ -146,7 +147,14 @@ const arrayComponents = [
     ComponentToRender: Paginacion,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(90deg, #6e40aa, #be3caf, #fe4b83, #ff7747, #e3b62f, #b0ef5a, #53f666, #1edfa2, #23acd8, #4c6fdc, #4c6fdc)`
-  }
+  },
+  {
+    title: 'Component 19',
+    describe: `Autenticacion`,
+    ComponentToRender: Autenticacion,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #76b852, #8dc26f)`
+  },
 ];
 
 export function App() {
