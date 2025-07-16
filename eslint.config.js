@@ -31,5 +31,15 @@ export default defineConfig([
         }
       ]
     }
+  },
+  {
+    files: ['test.js'], // o ['scripts/**/*.js'] si tienes más
+    languageOptions: {
+      ecmaVersion: 2020,
+      sourceType: 'module',
+      globals: {
+        ...globals.node
+      }
+    }
   }
 ]);

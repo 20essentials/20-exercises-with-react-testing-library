@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { SearchFilter } from '#/components/17/SearchFilter.jsx';
+import { SearchFilter } from './SearchFilter.jsx';
 
 describe('BusquedaFiltrado', () => {
   it('debería mostrar todos los productos inicialmente', () => {

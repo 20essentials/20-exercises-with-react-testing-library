@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { NormalAndReverse } from '#/components/10/NormalAndReverse.jsx';
+import { NormalAndReverse } from './NormalAndReverse.jsx';
 
 describe('NormalAndReverse', () => {
   const mockupData = [

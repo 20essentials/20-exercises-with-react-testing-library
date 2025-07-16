@@ -1,4 +1,4 @@
-import { UploadFile } from '#/components/11/UploadFile.jsx';
+import { UploadFile } from './UploadFile.jsx';
 import { describe, it, expect } from 'vitest';
 import userEvent from '@testing-library/user-event';
 import { render, screen } from '@testing-library/react';

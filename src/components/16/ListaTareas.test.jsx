@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { ListaTareas } from '#/components/16/ListaTareas.jsx';
+import { ListaTareas } from './ListaTareas.jsx';
 
 describe('ListaTareas', () => {
   it('debería mostrar el formulario de nueva tarea', () => {

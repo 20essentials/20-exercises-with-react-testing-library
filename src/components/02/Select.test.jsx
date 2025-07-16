@@ -1,4 +1,4 @@
-import { Select } from '#/components/2/Select.jsx';
+import { Select } from './Select.jsx';
 import { describe, expect, it, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';

@@ -17,6 +17,7 @@ import { ListaTareas } from '#/components/16/ListaTareas.jsx';
 import { SearchFilter } from '#/components/17/SearchFilter.jsx';
 import { Paginacion } from '#/components/18/Paginacion.jsx';
 import { Autenticacion } from '#/components/19/Autenticacion.jsx';
+import { DragAndDrop } from '#/components/20/DragAndDrop.jsx';
 
 const arrayComponents = [
   {
@@ -154,6 +155,13 @@ const arrayComponents = [
     ComponentToRender: Autenticacion,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(to right, #76b852, #8dc26f)`
+  },
+  {
+    title: 'Component 20',
+    describe: `DragAndDrop`,
+    ComponentToRender: DragAndDrop,
+    id: crypto.randomUUID(),
+    gradient: `linear-gradient(to right, #fc00ff, #00dbde)`
   },
 ];
 

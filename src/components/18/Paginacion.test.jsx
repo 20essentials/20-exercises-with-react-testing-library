@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { Paginacion } from '#/components/18/Paginacion.jsx';
+import { Paginacion } from './Paginacion.jsx';
 
 describe('Paginacion', () => {
   const items = [

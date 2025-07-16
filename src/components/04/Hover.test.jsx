@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import userEvent from '@testing-library/user-event';
-import { Hover } from '#/components/4/Hover.jsx';
+import { Hover } from './Hover.jsx';
 import { render, screen } from '@testing-library/react';
 
 describe('Hover', () => {

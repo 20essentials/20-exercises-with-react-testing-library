@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { Autenticacion } from '#/components/19/Autenticacion.jsx';
+import { Autenticacion } from './Autenticacion.jsx';
 
 describe('Autenticacion', () => {
   it('debería mostrar el formulario de login inicialmente', () => {

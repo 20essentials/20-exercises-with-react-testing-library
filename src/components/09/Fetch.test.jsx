@@ -2,7 +2,7 @@ import { http, HttpResponse } from 'msw';
 import { setupServer } from 'msw/node';
 import { beforeAll, afterEach, afterAll, test, expect } from 'vitest';
 import { render, fireEvent, screen } from '@testing-library/react';
-import { Fetch } from '#/components/9/Fetch.jsx';
+import { Fetch } from './Fetch.jsx';
 
 const server = setupServer(
   http.get('/greeting', () => {

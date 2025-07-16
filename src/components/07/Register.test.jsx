@@ -1,7 +1,7 @@
 import userEvent from '@testing-library/user-event';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { screen, render } from '@testing-library/react';
-import { Register } from '#/components/7/Register.jsx';
+import { Register } from './Register.jsx';
 
 describe('Form Component', () => {
   let input1 = null;

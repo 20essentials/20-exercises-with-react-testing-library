@@ -1,4 +1,4 @@
-import { Input } from '#/components/3/Input.jsx';
+import { Input } from './Input.jsx';
 import { describe, expect, it, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';

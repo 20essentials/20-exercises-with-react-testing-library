@@ -1,7 +1,7 @@
 import userEvent from '@testing-library/user-event';
 import { describe, it, expect, beforeEach } from 'vitest';
 import { screen, render } from '@testing-library/react';
-import { Message } from '#/components/8/Message.jsx';
+import { Message } from './Message.jsx';
 
 describe('Form Component', () => {
   let paragraphMessage = null;

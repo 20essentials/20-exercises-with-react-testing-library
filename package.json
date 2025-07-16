@@ -12,7 +12,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "asdas": "vitest",
+    "test": "node test.js"
   },
   "dependencies": {
     "msw": "^2.10.3",

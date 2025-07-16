@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import userEvent from '@testing-library/user-event';
-import { Tab } from '#/components/5/Tab.jsx';
+import { Tab } from './Tab.jsx';
 import { render, screen } from '@testing-library/react';
 
 describe('Tab', () => {

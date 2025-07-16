@@ -1,4 +1,4 @@
-import { PokemonPromises } from '#/components/13/PokemonPromises.jsx';
+import { PokemonPromises } from './PokemonPromises.jsx';
 import { describe, it, expect, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { Formulario as Form } from '#/components/15/Formulario.jsx';
+import { Formulario as Form } from './Formulario.jsx';
 
 describe('Form', () => {
   it('should display the form initially', () => {

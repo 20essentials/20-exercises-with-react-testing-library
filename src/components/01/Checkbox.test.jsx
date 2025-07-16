@@ -1,4 +1,4 @@
-import { Checkbox } from '#/components/1/Checkbox.jsx';
+import { Checkbox } from './Checkbox.jsx';
 import { describe, it, expect, vi } from 'vitest';
 import userEvent from '@testing-library/user-event';
 import { render, screen } from '@testing-library/react';
