@@ -1,12 +1,12 @@
-import { Checkbox } from '#/components/1/Checkbox.jsx';
-import { Select } from '#/components/2/Select.jsx';
-import { Input } from '#/components/3/Input.jsx';
-import { Hover } from '#/components/4/Hover.jsx';
-import { Tab } from '#/components/5/Tab.jsx';
-import { Form } from '#/components/6/Form.jsx';
-import { Register } from '#/components/7/Register.jsx';
-import { Message } from '#/components/8/Message.jsx';
-import { Fetch } from '#/components/9/Fetch.jsx';
+import { Checkbox } from '#/components/01/Checkbox.jsx';
+import { Select } from '#/components/02/Select.jsx';
+import { Input } from '#/components/03/Input.jsx';
+import { HoverAndTab } from '#/components/04/HoverAndTab.jsx';
+import { BusquedaDebounce } from '#/components/05/BusquedaDebounce.jsx';
+import { Form } from '#/components/06/Form.jsx';
+import { Register } from '#/components/07/Register.jsx';
+import { Message } from '#/components/08/Message.jsx';
+import { Fetch } from '#/components/09/Fetch.jsx';
 import { NormalAndReverse } from '#/components/10/NormalAndReverse.jsx';
 import { UploadFile } from '#/components/11/UploadFile.jsx';
 import { Calculator } from '#/components/12/Calculator.jsx';
@@ -43,15 +43,15 @@ const arrayComponents = [
   },
   {
     title: 'Component 4',
-    describe: 'We make sure that the Hover works correctly in a Button',
-    ComponentToRender: Hover,
+    describe: 'We make sure that the Hover and Tab works correctly in a Button and a simple Form',
+    ComponentToRender: HoverAndTab,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%)`
   },
   {
     title: 'Component 5',
-    describe: 'We make sure that the tab() works correctly in Inputs',
-    ComponentToRender: Tab,
+    describe: 'We make sure that the results in the searchs works correctly',
+    ComponentToRender: BusquedaDebounce,
     id: crypto.randomUUID(),
     gradient: ` linear-gradient(to right, #ff8008, #ffc837)`
   },
