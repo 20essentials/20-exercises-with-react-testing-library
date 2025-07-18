@@ -1,5 +1,5 @@
-import { Checkbox } from '#/components/01/Checkbox.jsx';
-import { Select } from '#/components/02/Select.jsx';
+import { CheckBoxAndSelect } from '#/components/01/CheckBoxAndSelect.jsx';
+import { Autocompletado } from '#/components/02/Autocompletado.jsx';
 import { Input } from '#/components/03/Input.jsx';
 import { HoverAndTab } from '#/components/04/HoverAndTab.jsx';
 import { BusquedaDebounce } from '#/components/05/BusquedaDebounce.jsx';
@@ -22,15 +22,15 @@ import { DragAndDrop } from '#/components/20/DragAndDrop.jsx';
 const arrayComponents = [
   {
     title: 'Component 1',
-    describe: 'We make sure that the input checkbox works correctly',
-    ComponentToRender: Checkbox,
+    describe: 'We make sure that the input checkbox and the select work correctly',
+    ComponentToRender: CheckBoxAndSelect,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%)`
   },
   {
     title: 'Component 2',
-    describe: 'We make sure that the Select works correctly',
-    ComponentToRender: Select,
+    describe: 'We make sure that the Autocompletado works correctly',
+    ComponentToRender: Autocompletado,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(-225deg, #FF512F 0%, #DD2476 48%, #FF512F 100%)`
   },

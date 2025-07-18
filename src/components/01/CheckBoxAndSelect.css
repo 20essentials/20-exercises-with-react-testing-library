@@ -1,0 +1,17 @@
+.checkbox-and-select {
+  position: absolute;
+  inset: 0;
+  display: flex;
+
+  .checkbox-and-select-inner {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+
+    &.checkbox-and-select-inner-right {
+      background-color: mediumpurple;
+    }
+  }
+}
