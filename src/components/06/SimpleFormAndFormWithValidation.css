@@ -1,0 +1,17 @@
+.simple-form-and-validated-form {
+  position: absolute;
+  inset: 0;
+  display: flex;
+
+  .simple-form-and-validated-form-inner {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+
+    &.simple-form-and-validated-form-inner-right {
+      background-color: cyan;
+    }
+  }
+}

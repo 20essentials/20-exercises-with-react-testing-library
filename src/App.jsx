@@ -3,7 +3,7 @@ import { Autocompletado } from '#/components/02/Autocompletado.jsx';
 import { Input } from '#/components/03/Input.jsx';
 import { HoverAndTab } from '#/components/04/HoverAndTab.jsx';
 import { BusquedaDebounce } from '#/components/05/BusquedaDebounce.jsx';
-import { Form } from '#/components/06/Form.jsx';
+import { SimpleFormAndFormWithValidation } from '#/components/06/SimpleFormAndFormWithValidation.jsx';
 import { Register } from '#/components/07/Register.jsx';
 import { Message } from '#/components/08/Message.jsx';
 import { Fetch } from '#/components/09/Fetch.jsx';
@@ -57,8 +57,8 @@ const arrayComponents = [
   },
   {
     title: 'Component 6',
-    describe: 'We make sure that the Form works.',
-    ComponentToRender: Form,
+    describe: 'We make sure that the Form works with and without validation',
+    ComponentToRender: SimpleFormAndFormWithValidation,
     id: crypto.randomUUID(),
     gradient: `linear-gradient(to right, #12c2e9, #c471ed, #f64f59)
 `
